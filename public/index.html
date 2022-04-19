@@ -59,5 +59,29 @@
         </div>
       </div>
     </section>
+
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.11/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.11/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyCUilBaBslqkq34h4a3F_ofS3iVYAlqe1Y",
+        authDomain: "flexbox-project-69cd9.firebaseapp.com",
+        projectId: "flexbox-project-69cd9",
+        storageBucket: "flexbox-project-69cd9.appspot.com",
+        messagingSenderId: "91000856318",
+        appId: "1:91000856318:web:89e133221a0f9157608faf",
+        measurementId: "G-ZP371ET0JJ",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
   </body>
 </html>
